@@ -40,7 +40,7 @@ source: 'https://github.com/INTERSECT-training/packaging' # FIXME
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'icosden@princeton.edu' # FIXME
 
 # Navigation ------------------------------------------------
 #
@@ -81,9 +81,11 @@ episodes:
 
 # Information for Learners
 learners: 
+- setup.md
 
 # Information for Instructors
 instructors: 
+- instructor-notes.md
 
 # Learner Profiles
 profiles: 

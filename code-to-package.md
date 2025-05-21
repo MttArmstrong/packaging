@@ -32,8 +32,8 @@ This lesson will walk you through that process.
 
 ::::::::::::::::::::::::::::::::::::: callout
 
-- Ensure you're in an empty git repository (see [Setup](../setup) for details).
-- Ensure you've created and activated your virtual environment (see [Environment](../01-environment) for details):
+- Ensure you're in an empty git repository (see [Setup](../learners/setup.md) for details).
+- Ensure you've created and activated your virtual environment (see [Environment](environment.md) for details):
 ```bash
 . .venv/bin/activate
 ```

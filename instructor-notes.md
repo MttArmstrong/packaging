@@ -20,6 +20,3 @@ At each step when a new concept is introduced,
 it dives deeper into the detail than a how-to guide would –
 for instance, we only get to code after setting up an environment 
 and initializing the infrastructure needed for reproducible builds.
-
-
-{% include links.md %}

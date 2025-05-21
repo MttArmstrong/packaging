@@ -116,7 +116,7 @@ Open Source Guides has more about the [legal side of open source software](https
 However, if you have created research software and plan to share it openly, you *want* others to use your software, and possibly contribute to it. (Who doesn't love having other people fix the bugs in their code?)
 
 A software license provides the explicit permissions for others to use, modify, or share your code, and lays out the specific rules for any restrictions about how they can do those things.
-To pick a license, use resources like [Choose a License](https://choosealicense.com) or [Civic Commons "Choosing a License"](http://wiki.civiccommons.org/Choosing_a_License/) based on how you want others to interact with your software.
+To pick a license, use resources like [Choose a License](https://choosealicense.com) or [Civic Commons "Choosing a License"](https://wiki.civiccommons.org/Choosing_a_License/) based on how you want others to interact with your software.
 You can also see the [full list of open-source licenses](https://opensource.org/licenses/category) approved by the Open Source Initiative, which maintains the Open Source Definition.
 
 For a new project, you essentially have one major choice to make:
@@ -216,7 +216,7 @@ The Markdown syntax for adding a badge describing the BSD 3-Clause License is:
 ```markdown
 [![License](https://img.shields.io/badge/license-BSD-green.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ```
-and will render as [![License](https://img.shields.io/badge/license-BSD-green.svg)](https://opensource.org/licenses/BSD-3-Clause)
+and will render as [![License](https://img.shields.io/badge/license-BSD-green.svg){alt=''}](https://opensource.org/licenses/BSD-3-Clause)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -296,7 +296,7 @@ to release a new version, you add a new section to the file above this list of c
 
 Changes should be grouped together based on the type; suggestions for these come from the
 [Keep a Changelog project](https://keepachangelog.com/en/1.0.0/) by
-[Olivier Lacan](http://olivierlacan.com/):
+[Olivier Lacan](https://olivierlacan.com/):
  - `Added` for new features,
  - `Changed` for changes in existing functionality,
  - `Deprecated` for soon-to-be removed features,

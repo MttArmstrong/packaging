@@ -178,7 +178,7 @@ There are three ways to include your license:
    [project]
    license = {file = "LICENSE"}
    ```
-   If you do this, after the [`build` step](../09-publishing-citations),
+   If you do this, after the [`build` step](publishing.md),
    verify the contents of your SDist and Wheel(s) manually
    to make sure the license file is included,
    because some build backends may not support including the license
@@ -299,22 +299,22 @@ There are several ways to lock your dependencies completely:
 
 ::::::::::::::::::::::::::::::::::::: callout
 
-> ## Pinning Dependencies with `pip-tools`
-> Set up a `requirements.in` file with your unpinned dependencies. For example:
->
-> ```txt
-> # requirements.in
-> packaging
-> ```
->
-> Now, run pip-compile from pip-tools on your requirements.in to make a requirements.txt:
->
-> ```bash
-> pipx run --spec pip-tools pip-compile requirements.in --generate-hashes
-> ```
->
-> This will produce a `requirements.txt` with fully locked dependencies, including
-> hashes.  You can always regenerate it when you want updates.
+## Pinning Dependencies with `pip-tools`
+Set up a `requirements.in` file with your unpinned dependencies. For example:
+
+```txt
+# requirements.in
+packaging
+```
+
+Now, run pip-compile from pip-tools on your requirements.in to make a requirements.txt:
+
+```bash
+pipx run --spec pip-tools pip-compile requirements.in --generate-hashes
+```
+
+This will produce a `requirements.txt` with fully locked dependencies, including
+hashes.  You can always regenerate it when you want updates.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

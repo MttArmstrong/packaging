@@ -34,7 +34,7 @@ You will:
 We'll start with the built-in template. Start by creating a `docs/` directory
 within your project (i.e. next to `src/`).
 
-::::::::::::::::::::::::::::::::::::: spolier 
+::::::::::::::::::::::::::::::::::::: spoiler 
 
 ## Why not Sphinx-Quickstart?
 
